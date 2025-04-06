@@ -1,0 +1,44 @@
+/* layout.css */
+
+/* Header with solid Klein Blue background */
+header {
+    background: #002fa7; /* Single-color background */
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    color: #FFFFFF; /* Ensure header text is visible on dark background */
+  }
+  
+  /* Optional container for a centered layout (if desired) */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Main content area */
+  main {
+    padding: 40px 20px;
+  }
+  
+  /* Footer with a semi-transparent overlay */
+  footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    background: rgba(0,0,0,0.5);
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  /* Section styling with a semi-transparent background for contrast */
+  .section {
+    margin-bottom: 60px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  

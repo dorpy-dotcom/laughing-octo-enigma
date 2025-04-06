@@ -1,0 +1,19 @@
+/* theme.css */
+
+/* Body with a high-end gradient background in your new color palette */
+body {
+    /* Fallback color */
+    background: #002fa7;
+  
+    /* Vendor prefixes for gradients */
+    background: -webkit-linear-gradient(135deg, #002fa7, #c8c7c5);
+    background: -moz-linear-gradient(135deg, #002fa7, #c8c7c5);
+  
+    /* Standard property */
+    background: linear-gradient(135deg, #002fa7, #c8c7c5);
+  
+    color: #FFFFFF;  /* White text for contrast */
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  

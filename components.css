@@ -1,0 +1,136 @@
+/* components.css */
+
+/* Solid logo text for clarity */
+.logo h1 {
+    font-size: 28px;
+    color: #FFFFFF; /* Solid white for clear visibility */
+    /* Removed gradient background and text clipping properties */
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li {
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 16px;
+  }
+  
+  nav ul li:hover {
+    color: #c8c7c5;
+  }
+  
+  /* Solid section headings for clarity */
+  .section h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #FFFFFF; /* Solid white for clarity */
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+  }
+  
+  /* Buttons with a Klein Blue -> Gray gradient */
+  .btn {
+    /* Fallback color */
+    background: #002fa7;
+    background: -webkit-linear-gradient(45deg, #002fa7, #c8c7c5);
+    background: -moz-linear-gradient(45deg, #002fa7, #c8c7c5);
+    background: linear-gradient(45deg, #002fa7, #c8c7c5);
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background: -webkit-linear-gradient(45deg, #c8c7c5, #002fa7);
+    background: -moz-linear-gradient(45deg, #c8c7c5, #002fa7);
+    background: linear-gradient(45deg, #c8c7c5, #002fa7);
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+  
+  /* Bounce animation */
+  @keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+  
+  .bounce {
+    animation: bounce 0.3s ease;
+  }
+  
+  /* Chat area */
+  .chat-area {
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 15px;
+    height: 220px;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+  
+  /* Chat input container */
+  .chat-input-container {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-input-container input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Cart icon styling */
+  .cart-icon {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  /* Chat area styling is already present; now add chat message styles */
+
+/* General chat message style */
+.chat-message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* User messages style */
+  .user-message {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: left;
+  }
+  
+  /* Bot messages style */
+  .bot-message {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: left;
+    font-style: italic;
+  }
+  
+  /* Timestamp styling for chat messages */
+  .timestamp {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 5px;
+  }
+  
